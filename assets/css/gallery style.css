@@ -1,0 +1,44 @@
+body {
+	background: #E3E6E8;
+}
+
+.buttontext:visited {
+	color: #140909;
+}
+
+.buttontext:link{
+	text-decoration: none;
+}
+
+.buttontext {
+    color: #140909;
+    font-family: Habibi;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.desc {
+	color: #140909;
+	line-height: 20px;
+	font-family: Habibi;
+	font-size: 20px;
+
+	padding: 15px;
+	text-align: center;
+}
+
+.gallery {
+	margin: 50px;
+	width: 250px;
+	margin-left: 110px;
+	border: 5px solid #ccc;
+	float: left;
+}
+
+.gallery:hover {
+	transform: scale(1.5);
+	font-weight: bold;
+}

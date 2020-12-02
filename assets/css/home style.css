@@ -1,0 +1,118 @@
+.container1 {
+	color: #140909;
+	position: relative;
+}
+
+
+#title {
+	position: absolute;
+	width: 600px;
+	left: 100px;
+	top: 255px;
+
+	font-family: Habibi;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	line-height: 83px;
+}
+
+.container2 {
+	color: #140909;
+	position: relative;
+	line-height: 40px;
+}
+
+#about {
+	position: absolute;
+	width: 225px;
+	left: 100px;
+	top: 388px;
+
+	font-family: Habibi;
+	font-size: 35px;
+	line-height: 200px;
+	cursor: pointer;
+}
+
+#about:hover {
+	text-transform: uppercase;
+}
+
+#gallery {
+	position: absolute;
+	width: 225px;
+	left: 350px;
+	top: 388px;
+
+	font-family: Habibi;
+	font-size: 35px;
+	line-height: 200px;
+	cursor: pointer;
+}
+
+#gallery:hover {
+	text-transform: uppercase;
+}
+
+#adopt {
+	position: fixed;
+	width: 1000px;
+	bottom: 45px;
+	left: 110px;
+
+	font-family: Habibi;
+	font-size: 35px;
+	line-height: 45px;
+	text-align: left;
+}
+
+.sidebar {
+	max-height:100%;
+	max-width:100%;
+}
+
+#describe {
+	top: 100px;
+	width: 500px;
+	background-color: white;
+	position: fixed;
+	right: 0px;
+	height: 475px;
+
+	font-family: Raleway, sans-serif;
+	font-size: 35px;
+	line-height: 50px;
+	padding: 10px;
+	margin: 10px;
+	letter-spacing: normal;
+	border: 5px solid #ccc;
+	text-align: left;
+}
+
+#main-photo {
+	position: fixed;
+	right: 0px;
+	height:100%;
+	width: 550px;
+}
+
+body {
+	background: #E3E6E8;
+}
+
+.buttontext:visited {
+	color: #140909;
+}
+
+.buttontext:link{
+	text-decoration: none;
+}
+
+.hidden {
+	display: none;
+}
+
+.unhide {
+	display: block;
+}
